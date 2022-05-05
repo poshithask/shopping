@@ -1,0 +1,183 @@
+body {
+  background-color: #AD8B73;
+}
+
+/* Title section */
+.category {
+  background-color: #AD8B73;
+  color: #FFFBE9;
+  width: 140px;
+}
+
+.category:hover {
+  color: #7A4830;
+}
+
+.category-icon-men {
+  width: 50px;
+}
+
+.category-icon-women {
+  width: 33px;
+}
+
+.category-icon-kids {
+  width: 23px;
+}
+
+.category-icon-acc {
+  width: 38px;
+}
+
+.logo {
+  padding: 0;
+  position: relative;
+}
+
+.navbar {
+  background-color: #E3CAA5;
+  padding: 0;
+}
+
+.nav-item {
+  padding: 0 30px;
+}
+
+#title {
+  background-color: #E3CAA5;
+  padding: 1% 3%;
+}
+
+/* carousel section */
+.carousel-image{
+  width: 300px;
+  height: 450px;
+  margin: 0;
+}
+.d-block {
+  height: 20rem;
+}
+
+#gallery {
+  padding: 3% 3%;
+}
+
+/* Gallery section */
+h3, h2,p {
+  color: #7A4830;
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+.product-image {
+  width: 200px;
+  height: 250px;
+}
+
+.product-price:hover {
+  color: #8A5940;
+}
+
+.row {
+  margin: 0;
+}
+
+.shorts-card {
+  background-color: #CEAB93;
+}
+
+.tops-card {
+  background-color: #AD8B73;
+}
+
+.tops, .dresses, .trousers {
+  background-color: #CEAB93;
+}
+
+.shorts>h3, .skirts>h3 {
+  color: #FFFBE9;
+}
+
+.tops, .shorts, .dresses, .skirts, .trousers {
+  margin: 0;
+  padding: 3% 3%;
+}
+
+/* #pricing{
+padding: 3% 3%;
+} */
+/* Footer section */
+.copy-right {
+  color: #AD8B73;
+}
+
+.go-to-top {
+  color: #8B695A;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.go-to-top:hover {
+  color: #AD8B73;
+}
+
+.social-icon {
+  margin: 20px 20px;
+  color: #8B695A;
+  text-decoration: none;
+}
+
+.social-icon:hover{
+  color: #FFFBE9;
+}
+
+.top-button {
+  align-content: flex-end;
+  display: flex;
+}
+
+#footer {
+  background-color: #E3CAA5;
+  padding: 3% 3%;
+  text-align: center;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 200px;
+  height: 250px;
+  perspective: 1000px;
+  /* Remove this if you don't want the 3D effect */
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  color: white;
+  transform: rotateY(180deg);
+}
